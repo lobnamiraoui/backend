@@ -45,20 +45,13 @@ const products = [
 	  imageUrl: "assets/robe.jpg",
 	  category: "Vêtements",
 	},
-	{
-	  name: "Sac à main en cuir",
-	  description: "Sac élégant en cuir véritable, idéal pour toutes les occasions.",
-	  price: 129.99,
-	  countInStock: 15,
-	  imageUrl: "assets/sacs.jpg",
-	  category: "Sacs",
-	},
+	
 	{
 	  name: "Montre dorée classique",
 	  description: "Montre pour femme avec un bracelet doré et un design intemporel.",
 	  price: 199.99,
 	  countInStock: 10,
-	  imageUrl: "assets/monre.jpg",
+	  imageUrl: "assets/montre1.jpg",
 	  category: "Montres",
 	},
 	{
@@ -90,7 +83,7 @@ const products = [
 	  description: "robe fluide plissée pour un look féminin et moderne.",
 	  price: 59.99,
 	  countInStock: 18,
-	  imageUrl: "assets/robe1.jpg",
+	  imageUrl: "assets/robe2.webp",
 	  category: "Vêtements",
 	},
 	{
@@ -101,6 +94,31 @@ const products = [
 	  imageUrl: "assets/sac1.jpg",
 	  category: "Sacs",
 	},
+
+	{
+		name: "Sac ",
+		description: "Grand sac cabas en toile, pratique et stylé pour le quotidien.",
+		price: 50.99,
+		countInStock: 30,
+		imageUrl: "assets/sec2.jpg",
+		category: "Sacs",
+	  },
+	  {
+		name: "Sac ",
+		description: "Grand sac cabas en toile, pratique et stylé pour le quotidien.",
+		price: 60.99,
+		countInStock: 30,
+		imageUrl: "assets/sacs.jpg",
+		category: "Sacs",
+	  },
+	  {
+		name: "Montre dorée classique",
+		description: "Montre pour femme avec un bracelet doré et un design intemporel.",
+		price: 199.99,
+		countInStock: 10,
+		imageUrl: "assets/montre4.jpg",
+		category: "Montres",
+	  },
   ];
 
 // Import data into DB
